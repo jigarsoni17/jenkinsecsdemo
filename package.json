@@ -4,19 +4,8 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/karthik-ey/JenkinsDemo.git"
-  },
-  "keywords": [
-    "jenkins"
-  ],
-  "author": "karthik",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/karthik-ey/JenkinsDemo/issues"
-  },
-  "homepage": "https://github.com/karthik-ey/JenkinsDemo#readme"
+    "start": "PORT=3000 node src/server.js",
+    "build": "npm run-script build"
+  }
+
 }
