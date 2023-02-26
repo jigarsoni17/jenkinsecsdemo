@@ -13,8 +13,8 @@
             ]
         }
     ],
-    "cpu": "2048",
-    "memory": "982",
+    "cpu": "256",
+    "memory": "512",
     "requiresCompatibilities": [
              "EC2"
     ],
