@@ -5,7 +5,7 @@ pipeline {
         AWS_DEFAULT_REGION="ap-south-1" 
 	      CLUSTER_NAME="default"
 	      SERVICE_NAME="nodejs-conatiner-service"
-	      TASK_DEFINITION_NAME="first-run-task-definition"
+	      TASK_DEFINITION_NAME="demo-task"
   	    DESIRED_COUNT="1"
         IMAGE_REPO_NAME="demo"
         IMAGE_TAG="${env.BUILD_ID}"
