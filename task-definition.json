@@ -19,6 +19,6 @@
     "requiresCompatibilities": [
              "EC2"
     ],
-    "networkMode": "host",
+    "networkMode": "awsvpc",
     "executionRoleArn": ROLE_ARN 
 }
