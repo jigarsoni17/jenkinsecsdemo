@@ -8,7 +8,8 @@
             "portMappings": [
                 {
                     "containerPort": 3000,
-                    "hostPort": 3000
+                    "hostPort": 3000,
+                    "protocol": "tcp"
                 }
             ]
         }
@@ -18,6 +19,6 @@
     "requiresCompatibilities": [
              "EC2"
     ],
-    "networkMode": "awsvpc",
+    "networkMode": "host",
     "executionRoleArn": ROLE_ARN 
 }
